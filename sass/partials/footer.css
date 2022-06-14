@@ -1,0 +1,25 @@
+/*estilo footer*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#2f6578), color-stop(#446d81), color-stop(#56768a), color-stop(#677f91), to(#778899));
+  background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f91, #778899);
+}
+
+.parrafofooter {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+/*# sourceMappingURL=footer.css.map */

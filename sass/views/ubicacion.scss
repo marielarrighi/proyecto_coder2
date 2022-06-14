@@ -1,0 +1,20 @@
+
+/*estilo main ubicacion*/
+
+.ubicacion {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: #41A4C3;
+}
+
+.ubicacionsec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mapa {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+}

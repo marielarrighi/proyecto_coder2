@@ -1,0 +1,56 @@
+/*estilo header*/
+header {
+  padding: 0px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#2f6578), color-stop(#446d81), color-stop(#56768a), color-stop(#677f91), to(#778899));
+  background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f91, #778899);
+  width: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.logoprincipal {
+  height: 210px;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+  padding-top: 25px;
+}
+
+.homelogo {
+  width: 50%;
+}
+
+.homelista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  -webkit-text-decoration: lightgray;
+          text-decoration: lightgray;
+  padding: 5rem 1rem;
+}
+
+.lista {
+  border-bottom: 1px solid #fafafa;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.lista:hover {
+  border-bottom: #41A4C3;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+li {
+  list-style: none;
+}
+/*# sourceMappingURL=header.css.map */

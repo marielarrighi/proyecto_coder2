@@ -1,0 +1,288 @@
+/*Misc*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+/*boton whatsapp*/
+.container-boton {
+  background-color: #2e6329;
+  border: 1px solid #fff;
+  position: fixed;
+  z-index: 999;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 25px;
+  padding: 25px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+  -webkit-animation: efecto 1.2s infinite;
+          animation: efecto 1.2s infinite;
+}
+
+.container-boton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.boton {
+  width: 50px;
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+}
+
+@-webkit-keyframes efecto {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes efecto {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
+}
+
+/*Partials*/
+/*estilo header*/
+header {
+  padding: 0px;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#2f6578), color-stop(#446d81), color-stop(#56768a), color-stop(#677f91), to(#778899));
+  background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f91, #778899);
+  width: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.logoprincipal {
+  height: 210px;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+  padding-top: 25px;
+}
+
+.homelogo {
+  width: 50%;
+}
+
+.homelista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  -webkit-text-decoration: lightgray;
+          text-decoration: lightgray;
+  padding: 5rem 1rem;
+}
+
+.lista {
+  border-bottom: 1px solid #fafafa;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.lista:hover {
+  border-bottom: #41A4C3;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+li {
+  list-style: none;
+}
+
+/*estilo footer*/
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#2f6578), color-stop(#446d81), color-stop(#56768a), color-stop(#677f91), to(#778899));
+  background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f91, #778899);
+}
+
+.parrafofooter {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+}
+
+/*Views*/
+.bannermedio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 94%;
+}
+
+h1 {
+  font-family: serif;
+  font-size: large;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buscadordepropiedades {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.propiedadesdestacadas {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background-color: #41A4C3;
+}
+
+.card {
+  width: 100%;
+  margin: 20px;
+  border-radius: 7px;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+.propiedades {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background-color: #41A4C3;
+}
+
+.formulariopropiedades {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*estilo main tasaciones*/
+.tasaciones {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background-color: #41A4C3;
+}
+
+/*estilo main ubicacion*/
+.ubicacion {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background-color: #41A4C3;
+}
+
+.ubicacionsec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+  padding: 20px;
+}
+
+/*estilo main contacto*/
+.contacto {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  background-color: #41A4C3;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formulariocontacto {
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=index.css.map */

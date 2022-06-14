@@ -1,14 +1,14 @@
 
-* {
+/** {
     margin: 0;
     padding: 0;
 }
 body {
     background-color: #fff
-}
+}*/
 
 
-/*estilo header*/
+/*estilo header
 header {
     padding: 0px;
     background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f91, #778899);
@@ -50,9 +50,9 @@ header {
 
 li{
     list-style: none;
-} 
+} */
     
-/*estilo main index*/
+/*estilo main index home
 
 
 .bannermedio{
@@ -93,8 +93,8 @@ padding: 10px;
     text-align: center;
     background-color: #41A4C3;  
     
-}
-
+}*/
+/*
 .card {
     width: 100%;  
     margin: 20px;
@@ -108,7 +108,7 @@ padding: 10px;
 .card:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-3%)
-}
+}*/
 
 /*GRID*/ 
 
@@ -136,7 +136,7 @@ padding: 10px;
     
 }*/
 
-/*estilo footer*/ 
+/*estilo footer
 
 footer {
     display: flex;
@@ -151,9 +151,9 @@ background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f
 .parrafofooter  {
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 16px;
-}
+}*/
 
-/*boton whatsapp*/
+/*boton whatsapp
 .container-boton{
     background-color: #2e6329;
     border: 1px solid #fff;
@@ -183,10 +183,10 @@ font-size: 16px;
     100%{
         box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
     }
-}
+}*/
 
 
-/*estilo main contacto*/
+/*estilo main contacto
 
 .contacto{
     font-family: 'Rubik', sans-serif;
@@ -207,9 +207,9 @@ p{
     margin-top: 20px;
     margin-bottom: 20px;
     
-}
+}*/
 
-/*estilo main propiedades*/
+/*estilo main propiedades
 
 .propiedades {
     font-family: 'Rubik', sans-serif;
@@ -223,9 +223,9 @@ p{
     font-size: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+}*/
 
-/*estilo main tasaciones*/
+/*estilo main tasaciones*
 
 .tasaciones {
     font-family: 'Rubik', sans-serif;
@@ -233,7 +233,7 @@ p{
     background-color: #41A4C3;
 }
 
-/*estilo main ubicacion*/
+/*estilo main ubicacion
 
 .ubicacion {
     font-family: 'Rubik', sans-serif;
@@ -251,7 +251,7 @@ p{
     flex-direction: column;
     width: 40%;
     padding: 20px;
-}
+}*/
 
 /*MEDIA QUERIES comentada porque me modifica todo
 

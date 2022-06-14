@@ -1,0 +1,28 @@
+.card {
+    width: 100%;  
+    margin: 20px;
+    border-radius: 7px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%)
+}
+
+.propiedades {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: #41A4C3;
+    
+}
+
+.formulariopropiedades{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

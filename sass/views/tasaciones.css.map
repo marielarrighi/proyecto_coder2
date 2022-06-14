@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,0BAA0B;AAE1B,AAAA,WAAW,CAAC;EACR,WAAW,EAAE,mBAAmB;EAChC,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "tasaciones.scss"
+    ],
+    "names": [],
+    "file": "tasaciones.css"
+}

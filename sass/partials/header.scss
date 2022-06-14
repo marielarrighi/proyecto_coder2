@@ -1,0 +1,44 @@
+/*estilo header*/
+header {
+    padding: 0px;
+    background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f91, #778899);
+    width: auto;
+    justify-content: end;
+}
+
+.logoprincipal{
+    height: 210px;
+    padding-inline-start: 15px;
+    padding-top: 25px;
+}
+
+.homelogo {
+        width: 50%;
+}
+
+.homelista{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     font-family: 'Rubik', sans-serif;
+     font-size: 20px;
+     text-decoration: lightgray;
+     padding: 5rem 1rem;
+    
+}
+.lista {
+    border-bottom: 1px solid #fafafa;
+    transition: .3s ease-in-out;
+ 
+}
+
+.lista:hover {
+    border-bottom: #41A4C3;
+    transition: all .3s ease-in-out;
+    
+} 
+
+li{
+    list-style: none;
+} 
+    

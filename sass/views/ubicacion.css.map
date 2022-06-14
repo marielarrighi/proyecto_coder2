@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,yBAAyB;AAEzB,AAAA,UAAU,CAAC;EACP,WAAW,EAAE,mBAAmB;EAChC,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAAE,OAAO;CAC5B;;AAED,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,YAAY;CAChC;;AACD,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "ubicacion.scss"
+    ],
+    "names": [],
+    "file": "ubicacion.css"
+}

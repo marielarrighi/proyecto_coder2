@@ -1,0 +1,40 @@
+
+.bannermedio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 94%;
+    
+}
+
+h1 {  
+    font-family: serif; 
+    font-size: large;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    left: 450px;
+   
+}
+
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.buscadordepropiedades{
+display: flex;
+flex-direction: row;
+align-content: center;
+margin: 10px;
+padding: 10px;
+}
+
+
+.propiedadesdestacadas {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: #41A4C3;  
+    
+}
