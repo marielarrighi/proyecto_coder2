@@ -47,7 +47,7 @@
           <div class="carousel-item active">
             <img src="./img/+hm.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Bienvenidos a Arrighi Propiedades</h5>
+              <h5 class="pcarrousel">Bienvenidos a Arrighi Propiedades</h5>
             </div>
           </div>
           <div class="carousel-item">
@@ -107,10 +107,10 @@
         </button>
       </div>
     -->
-
-         <h2>Buscador de Propiedades</h2>
-    <div class="buscadordepropiedades">
-
+    <div class="container">
+      <div class="row justify-content-center ppt-5 mt-5 mr-1">
+        <div class="col -md-4 formularioprincipal">
+        <div class="buscadordepropiedades">
         <select class="form-control form-control-lg">
             <option>Tipo de Propiedad</option>
             <option value="Casa">Casa</option>
@@ -130,15 +130,17 @@
             <option value="Venta">Venta</option>
             <option value="Alquiler">Alquiler</option>
           </select>
-
-          <button type="button" class="btn btn-outline-dark btn-lg">Buscar Propiedades</button>
-    
-    </form>
+          <div>
+            <button type="button" class="btn btn-danger btn-lg buscarp">Buscar</button>
+          </form>
+        </div>
     </div>
+  </div>
+</div>
+</div>
+  <h2 class="propiedadesdestacadas">Propiedades Destacadas</h2> 
 
-    <h2 class="propiedadesdestacadas">Propiedades Destacadas</h2> 
-
-        <div class="card-deck auto">
+        <div class="card-deck auto cardcontainer">
         <div class="card">
           <img src="./Img/living+.jpg" class="card-img-top" alt="" width="250" height="250">
           <div class="card-body">
@@ -167,24 +169,43 @@
     </main>
 <!--Footer-->
 <footer> 
-  <div class="d-flex flex-row bd-highlight mb-3">
-      <div class="p-2 bd-highlight"> Ubicacion: Laprida 271, Lomas de Zamora · Telefono: 011-2009-7487 · Mail: info@arrighipropiedades. com ·</div>
-      <div class="p-2 bd-highlight">Seguinos en nuestras redes</div>
-  <div>
-    <a href="#">
-    <img src="./Img/FG.png" m-3 width="50" height="50">
-    </a>
-    <a href="#">
-    <img src="./Img/IGG.png" m-3 width="50" height="50">
-    </a>
-    <a href="#">
-    <img src="./Img/MG.png" m-3 width="50" height="50">
-    </a>
+  <div class="footer">
+      <div class="grupo-1"> 
+      <div class="box">
+     <figure>
+      <a href="#">
+        <img src="./Img/logo sin fondo.png" alt="arrighipropiedades" height="190px">
+        </a>
+     </figure>
+     </div>
+<div class="box">
+  <h2 class="h2-footer"> UBICACION</h2>
+  <p  class="p-footer">Laprida 271, Lomas de Zamora </p>
+  <p  class="p-footer">Telefono: 011-2009-7487 </p>
+  <p  class="p-footer">Mail: info@arrighipropiedades. com  </p>
+</div>
+<div class="box">
+  <h2 class="h2-footer">SEGUINOS EN</h2>
+  <div class="redessociales">
+      <a href="#">
+      <img src="./Img/FG.png" m-3 width="50" height="50">
+      </a>
+      <a href="#">
+      <img src="./Img/IGG.png" m-3 width="50" height="50">
+      </a>
+      <a href="#">
+      <img src="./Img/MG.png" m-3 width="50" height="50">
+      </a>
    </div>
-   </div>
-       </footer>
-   
-    <!--Boton de whatsapp-->
+</div>
+</div>
+<div class="grupo-2">
+  <small class="small">&copy; 2022 <b>MDA DESING</b> - Todos Los Derechos Reservados</small>
+</div>
+ 
+</footer>
+  
+<!--Boton de whatsapp-->
     <div class="container-boton">
         <a href="https://wa.me/+5491161345076?text=Quiero recibir mas informacion" target="_blank">
             <img class="boton" src="./Img/whatsapp-logo-1.png" alt="" width="50" height="50"> 

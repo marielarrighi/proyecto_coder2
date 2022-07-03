@@ -63,8 +63,6 @@ body {
 /*estilo header*/
 header {
   padding: 0px;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#2f6578), color-stop(#446d81), color-stop(#56768a), color-stop(#677f91), to(#778899));
-  background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f91, #778899);
   width: auto;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -116,7 +114,7 @@ li {
   list-style: none;
 }
 
-/*estilo footer*/
+/*estilo footer
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,11 +132,53 @@ footer {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-image: -webkit-gradient(linear, left bottom, right top, from(#2f6578), color-stop(#446d81), color-stop(#56768a), color-stop(#677f91), to(#778899));
   background-image: linear-gradient(to right top, #2f6578, #446d81, #56768a, #677f91, #778899);
-  }
+  }*/
 
-.parrafofooter {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 16px;
+/*estilo footer*/
+.footer {
+  width: 100%;
+  background-color: #0a141d;
+}
+
+.grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.boxfigure {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h2-footer{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.p-footer{
+  color: darkgray;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.grupo-2{
+  text-align: center;
+}
+.small{
+  color:darkgray;
+  margin-bottom: 25px;
+  font-size: 10px;
+  text-orientation: center;
+}
+.redessociles{
+  justify-content: space-evenly;
 }
 
 /*Views*/
@@ -192,6 +232,7 @@ h2 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   background-color: #41A4C3;
+  color: rgb(8, 11, 51);
 }
 
 .card {
@@ -206,6 +247,9 @@ h2 {
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+.cardcontainer{
+ margin: 25px;
+ }
 
 .card:hover {
   -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
@@ -218,6 +262,7 @@ h2 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   background-color: #41A4C3;
+  color: rgb(8, 11, 51);
 }
 
 .formulariopropiedades {
@@ -232,13 +277,74 @@ h2 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   background-color: #41A4C3;
+  color: rgb(8, 11, 51);
 }
+
+.formulario {
+  background: rgba(5, 7, 12, 0.40);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, -0, -0, -0.568);
+  color: white;
+}
+.enviar{
+  background-color: #41A4C3;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  box-shadow: 0 0 30px rgba(0, -0, -0, -0.568);
+  transition: 0.5s ease-in;
+  margin: 15px;
+  }
+ .enviar:hover{
+  color: orange;
+}
+.enviarconsulta{
+  background-color: #41A4C3;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  box-shadow: 0 0 30px rgba(0, -0, -0, -0.568);
+  transition: 0.5s ease-in;
+  margin: 15px;
+ }
+ .enviarconsulta:hover{
+ color: orange;
+}
+.container{
+  margin: 25px;
+ }
+ .formularioprincipal {
+  background: #41A4C3;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, -0, -0, -0.568);
+  color: white;
+ 
+}
+.form-control{
+  margin-inline: 10px;
+  padding: 10px;
+}
+.buscarp{
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 0 0 30px rgba(0, -0, -0, -0.568);
+  transition: 0.5s ease-in;
+  margin-inline: 10px;
+    
+}
+
 
 /*estilo main ubicacion*/
 .ubicacion {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   background-color: #41A4C3;
+  color: rgb(8, 11, 51);
 }
 
 .ubicacionsec {
@@ -263,6 +369,9 @@ h2 {
           flex-direction: column;
   width: 40%;
   padding: 20px;
+  background-color: #41A4C3;
+  border-radius: 10px;
+  color: rgb(8, 11, 51);
 }
 
 /*estilo main contacto*/
@@ -270,6 +379,7 @@ h2 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
   background-color: #41A4C3;
+  color: rgb(8, 11, 51);
 }
 
 p {
@@ -277,7 +387,7 @@ p {
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: honeydew;
+  color: rgb(8, 11, 51);
 }
 
 .card-text{
