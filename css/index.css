@@ -298,7 +298,7 @@ h2 {
   margin: 15px;
   }
  .enviar:hover{
-  color: orange;
+  color: red;
 }
 .enviarconsulta{
   background-color: #41A4C3;
@@ -311,7 +311,7 @@ h2 {
   margin: 15px;
  }
  .enviarconsulta:hover{
- color: orange;
+ color: red;
 }
 .container{
   margin: 25px;
@@ -325,8 +325,8 @@ h2 {
  
 }
 .form-control{
-  margin-inline: 10px;
-  padding: 10px;
+  margin-inline: 3px;
+  padding-block-end: 10px;
 }
 .buscarp{
   padding: 10px;
